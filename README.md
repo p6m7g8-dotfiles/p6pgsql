@@ -33,10 +33,17 @@
 
 ## p6pgsql/lib
 
+### p6pgsql/lib/cli.sh
+
+- p6_pgsql_cli()
+- stream  = p6_pgsql_cli_sql_run_cmd(user, host, db, cmd)
+- stream  = p6_pgsql_cli_sql_run_from_file(user, host, db, cmd)
+- stream  = p6_pgsql_filter_sql_run(user, host, db)
+
 ### p6pgsql/lib/db.sh
 
 - p6_pgsql_db_create()
-- p6_pgsql_db_drop(db)
+- p6_pgsql_db_drop(user, host, db)
 
 ### p6pgsql/lib/table.sh
 
@@ -49,10 +56,11 @@
 ├── README.md
 ├── init.zsh
 └── lib
+    ├── cli.sh
     ├── db.sh
     └── table.sh
 
-2 directories, 4 files
+2 directories, 5 files
 ```
 
 ## Author
