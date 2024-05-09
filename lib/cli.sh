@@ -13,7 +13,7 @@ p6_pgsql_cli() {
     local db="$3"
     shift 3
 
-    psql -X -q -w -h "$host" -U "$user" -d "$db" "$@"
+    psql -X -q -w -P pager=off -h "$host" -U "$user" -d "$db" "$@"
 
     p6_return_void
 }
