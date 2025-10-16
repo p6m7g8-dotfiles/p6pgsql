@@ -37,7 +37,7 @@
 
 - p6_pgsql_cli()
 - stream  = p6_pgsql_cli_sql_run_cmd(user, host, db, cmd)
-- stream  = p6_pgsql_cli_sql_run_from_file(user, host, db, cmd)
+- stream  = p6_pgsql_cli_sql_run_from_file(user, host, db, file)
 - stream  = p6_pgsql_filter_sql_run(user, host, db)
 
 ### p6pgsql/lib/db.sh
@@ -53,12 +53,12 @@
 
 ```text
 .
-├── README.md
 ├── init.zsh
-└── lib
-    ├── cli.sh
-    ├── db.sh
-    └── table.sh
+├── lib
+│   ├── cli.sh
+│   ├── db.sh
+│   └── table.sh
+└── README.md
 
 2 directories, 5 files
 ```
