@@ -21,16 +21,16 @@ p6_pgsql_cli() {
 ######################################################################
 #<
 #
-# Function: stream  = p6_pgsql_cli_sql_run_from_file(user, host, db, cmd)
+# Function: stream  = p6_pgsql_cli_sql_run_from_file(user, host, db, file)
 #
 #  Args:
 #	user -
 #	host -
 #	db -
-#	cmd -
+#	file -
 #
 #  Returns:
-#	stream -
+#	stream - 
 #
 #>
 ######################################################################
@@ -57,7 +57,7 @@ p6_pgsql_cli_sql_run_from_file() {
 #	cmd -
 #
 #  Returns:
-#	stream -
+#	stream - 
 #
 #>
 ######################################################################
@@ -83,7 +83,7 @@ p6_pgsql_cli_sql_run_cmd() {
 #	db -
 #
 #  Returns:
-#	stream -
+#	stream - 
 #
 #>
 ######################################################################
