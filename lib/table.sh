@@ -3,7 +3,15 @@
 ######################################################################
 #<
 #
-# Function: p6_pgsql_filter_pipe_to_table()
+# Function: p6_pgsql_filter_pipe_to_table(user, host, db, table, column_list, [sep=|])
+#
+#  Args:
+#	user -
+#	host -
+#	db -
+#	table -
+#	column_list -
+#	OPTIONAL sep - [|]
 #
 #>
 ######################################################################
