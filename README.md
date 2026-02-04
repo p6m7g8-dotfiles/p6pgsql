@@ -43,24 +43,61 @@ TODO: Add a short summary of this module.
 
 - `p6df::modules::p6pgsql::deps()`
 - `p6df::modules::p6pgsql::init(_module, dir)`
+  - Args:
+    - _module - 
+    - dir - 
 
 #### p6pgsql/lib
 
 ##### p6pgsql/lib/cli.sh
 
 - `p6_pgsql_cli(user, host, db, ...)`
+  - Args:
+    - user - 
+    - host - 
+    - db - 
+    - ... - 
 - `stream  = p6_pgsql_cli_sql_run_cmd(user, host, db, cmd)`
+  - Args:
+    - user - 
+    - host - 
+    - db - 
+    - cmd - 
 - `stream  = p6_pgsql_cli_sql_run_from_file(user, host, db, file)`
+  - Args:
+    - user - 
+    - host - 
+    - db - 
+    - file - 
 - `stream  = p6_pgsql_filter_sql_run(user, host, db)`
+  - Args:
+    - user - 
+    - host - 
+    - db - 
 
 ##### p6pgsql/lib/db.sh
 
 - `p6_pgsql_db_create(user, host, db)`
+  - Args:
+    - user - 
+    - host - 
+    - db - 
 - `p6_pgsql_db_drop(user, host, db)`
+  - Args:
+    - user - 
+    - host - 
+    - db - 
 
 ##### p6pgsql/lib/table.sh
 
 - `p6_pgsql_filter_pipe_to_table(user, host, db, table, column_list, [sep=|])`
+  - Args:
+    - user - 
+    - host - 
+    - db - 
+    - table - 
+    - column_list - 
+    - OPTIONAL sep - [|]
 
 ## Hierarchy
 
